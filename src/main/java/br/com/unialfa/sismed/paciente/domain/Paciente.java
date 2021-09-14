@@ -1,11 +1,9 @@
 package br.com.unialfa.sismed.paciente.domain;
 
+import br.com.unialfa.sismed.convenio.domain.Convenio;
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
 
@@ -26,4 +24,7 @@ public class Paciente implements Serializable {
     private String telefone;
     private String sexo;
     private String rg;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    private Convenio convenio;
 }

@@ -7,7 +7,7 @@ import br.com.unialfa.sismed.paciente.repository.PacienteRepository;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping(path = "/api/paciente")
+@RequestMapping(path = "paciente")
 public class PacienteController {
 
     @Autowired
