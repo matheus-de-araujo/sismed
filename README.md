@@ -39,6 +39,8 @@ $ gradle runBoot
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - **Java**
+- **Gradle**
+- **Rest-Api**
 
 
 ---
