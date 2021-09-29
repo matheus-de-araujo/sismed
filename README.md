@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-    Sistema médico Educacional
+    Sistema médico Educacional - BackEnd
 </h3>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <h4 align="center"> 
-	🚧  Status: Em construção... 🚧
+	🚧  Status: Finalizado 🚧
 </h4>
 
 ## :pencil: Sobre o projeto
@@ -29,6 +29,7 @@
 
 # Clone este repositório
 $ git clone https://github.com/matheus-de-araujo/sismed
+$ gradle runBoot
 
 ```
 
